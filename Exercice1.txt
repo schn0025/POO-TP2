@@ -1,0 +1,33 @@
+Schneider Arthur
+
+
+
+Question 1
+Je constate que le destructeur est apeler et que tout les attributs d’instance de la classe sont disposer sur une ligne diferante
+
+Selon moi name est de type string, surface de type float et population de time int.
+
+pour la france les valeurs sont France, 641185.0 et 66600000
+
+Le travail du constructeur a ete d'inisier les valeur de l'objet a celles que nous lui avons passer en parametre.
+
+
+
+Question 2
+Les  attributs d’instance de l’objet de $italie on les valeur Italie, 0, 0
+
+Le travail du constructeur a ete d'inisier les valeur de l'objet a celles que nous lui avons passer en parametre et d'initier les valeur manquante a 0 par defaut.
+
+L'ensemble des attributs d’instance de cet objet non pas tous des valeurs initialement désirées.
+
+Il aurait éte plus judisieux de donner les valeur directement dans le constructeur car cela aurairt eviter de les modifier par la suite.
+
+
+
+Question 3
+Les attributs d’instance de ces deux objets sont initialisés soit avec les valeurs donné, soit avec les valeurs par deffaut.
+
+
+
+question 8
+selon moi la différence entre un métode et une fonction est l'appel
