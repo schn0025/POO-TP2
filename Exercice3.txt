@@ -15,7 +15,7 @@ les valeyur de ses attribut d'instance ne sont pas initialiser.
 question 12
 On fait appelle au constructeur lorce que l'on crée un objet a partire d'une classe.
 On associe l'appel d'un constructeur a l'opérateur "new".
-Le constructeur a por objectif dinitaliser les attribit d'instance a leur 1ere valeur soit donnée par l'appel soit seux par deffault
+Le constructeur a pour objectif dinitaliser les attribit d'instance a leur 1ere valeur soit donnée par l'appel soit seux par deffault
 On peux insancier une infinitée d'objet grâce a un seul est même consreucteur.
 Un constructeur n'a pas de type de retour il ne retourne rien.
 Le nom du constructeur est obligatoirement "__construct"
@@ -31,4 +31,12 @@ L’instruction $inconnu = new Person n'est plus valide.
 On ne peux instancier l'objet que d'une seul façon car il n'y a pas d'element dans l'objet que nous ne pouvons pas diffinir.
 $inconnu = new Person('LinkNom', 'Link', 121);
 les valeur sont LinkNom, Link, et 121
+
+
+question 16
+getLastName a un retour de type string et n'a pas de parametre.
+elle n'otorise pas la modification ca elle renvoi une copie de l'element et non l'elt lui même.
+
+question 21
+Le resultat est une erreur car on ne peux psa aficher les autre type que int, float ou string.
 
