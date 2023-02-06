@@ -1,0 +1,34 @@
+Schneider Arthur
+
+question 10
+les attribut d'instance de classe Person sont :
+	- $LastName de type string
+	- $firstName de type string
+	- $age de type int
+
+
+question 11
+je constate que ca ne marche pas car les variable "lastName, firstName, age" ne sont pas defini.
+les valeyur de ses attribut d'instance ne sont pas initialiser.
+
+
+question 12
+On fait appelle au constructeur lorce que l'on crée un objet a partire d'une classe.
+On associe l'appel d'un constructeur a l'opérateur "new".
+Le constructeur a por objectif dinitaliser les attribit d'instance a leur 1ere valeur soit donnée par l'appel soit seux par deffault
+On peux insancier une infinitée d'objet grâce a un seul est même consreucteur.
+Un constructeur n'a pas de type de retour il ne retourne rien.
+Le nom du constructeur est obligatoirement "__construct"
+
+
+question 13
+Les parametre de ce constructeur sont $lastName, $firstName, $age
+Ce constructeur donne pour chaqu'une de ces parametres les information entre l'or de la création de l'objet.
+Le mot clé $this indique qu'il sajit d'une valeur propre à l'objet lui même.
+La ligne $this->lastName = $lastName; indique de le lastName de l'objet prend pour valeur $lastName donner l'or de la création de l'objet.
+
+L’instruction $inconnu = new Person n'est plus valide.
+On ne peux instancier l'objet que d'une seul façon car il n'y a pas d'element dans l'objet que nous ne pouvons pas diffinir.
+$inconnu = new Person('LinkNom', 'Link', 121);
+les valeur sont LinkNom, Link, et 121
+
