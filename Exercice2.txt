@@ -1,0 +1,7 @@
+Schneider Arthur
+deffinition:
+	une classe est 
+	instance,
+	objet,
+	méthode d’instance,
+	constructeur.
